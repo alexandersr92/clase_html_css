@@ -1,5 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_main > ul{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.nav_main > ul li{
+   list-style-type: none;
+   margin-right: 10px;
+}
+.nav_main > ul li a{
+  text-decoration: none;
+  color: #343434;
+  display: block;
+  background-color: aquamarine;
+  padding: 10px 5px;
+  border-bottom: solid 2px blue;
+ }
+ .nav_main > ul li a:hover{
+     background-color: blueviolet;
+     color: white;
+ }
 
+ .contenedor{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+ }
+ aside{
+     max-width: 30%;
+     background-color: blue;
+ }
+ .contenido_principa{
+     max-width: 70%;
+ }
 
+ .banner{
+    background-color: darkolivegreen;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .articulos{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+
+ }
+ article{
+     max-width: 200px;
+     background-color: white;
+     padding: 10px;
+     margin: 20px;
+ }
+ article img{
+     max-width: 100%;
+ }
+ footer{
+     background-color: black;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 50px;
+     width: 100%;
+ }
 @media screen and (max-width: 400px) {
     .caja{
         max-width: 100%;
