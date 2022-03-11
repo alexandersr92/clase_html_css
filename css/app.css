@@ -1,21 +1,4 @@
-.padre{
-    background-color: red;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    align-content: space-around;
-    justify-content: space-between;
 
-    height: 100vh;
-}
-.hijo{
-    background-color: blue;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    color: white;
-}
 
 @media screen and (max-width: 400px) {
     .caja{
